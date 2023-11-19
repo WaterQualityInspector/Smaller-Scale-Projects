@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+body header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: khaki;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../../resources/pattern.webp");
+}
+
+
+body section h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.price {
+    display: inline;
+    color: blue;
+    font-weight: bold;
+}
+
+#brush_section {
+    background-color: mediumspringgreen;
+}
+
+#frame_section {
+    background-color: lightcoral;
+}
+
+#paint_section {
+    background-color: skyblue;
+}
