@@ -1,0 +1,17 @@
+* {
+    font-family: Roboto, Impact, sans-serif;
+    background-color: #cfeadd;
+    font-weight: lighter;
+}
+
+h1 {
+    color: seagreen;
+}
+
+p, li {
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+}
