@@ -1,0 +1,56 @@
+* {
+   box-sizing: border-box;
+}
+
+.background_funny {
+    position: fixed;
+    z-index: -10;
+    height: 100vh;
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.table_section {
+    background-color: rgba(199, 241, 188, 0.25);
+    line-height: 2.5;
+    padding: 20px;
+    border: hotpink solid 10px;
+    border-radius: 50px;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.table_section tr td,
+.table_section tr th {
+    font-family: "Roboto", serif;
+    font-size: large;
+    padding: 0 2vh;
+    border: hotpink solid 2px;
+}
+
+.amoger {
+    display: flex;
+    position: sticky;
+    top: 20px;
+    width: 80vw;
+    border: 10px hotpink solid;
+    margin: 20px auto;
+}
+
+.jojo {
+    background-color: green;
+    color: red;
+    font-family: Roboto;
+    border: white 20px solid;
+    line-height: 1;
+    font-size: 50px;
+}
+
+
+
