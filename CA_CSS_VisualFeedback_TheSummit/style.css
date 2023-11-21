@@ -1,0 +1,48 @@
+a {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: purple;
+}
+
+a:hover {
+  cursor: pointer;
+  color: darkblue;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+.btn  {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+  transition: background-color 0.4s;
+  background-color: rgba(200, 200, 255, 0.7);
+  padding: auto;
+}
+
+.btn:active {
+  transition: border-color 1s;
+  border-color: lightblue;
+  border: 2px white solid;
+}
+
+.activity:hover {
+  transition: background-color 0.2s;
+  background-color: lightblue;
+}
+
+.activity:active {
+  transition: background-color 0.1s;
+  background-color: azure;
+}
