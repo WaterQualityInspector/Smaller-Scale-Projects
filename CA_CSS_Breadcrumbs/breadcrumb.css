@@ -1,0 +1,55 @@
+.breadcrumb {
+  justify-content: left;
+}
+
+.breadcrumb a {
+  float: left;
+  color: #fff;
+  background: darkcyan;
+  position: relative;
+  height: auto;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  padding: 5px 5px;
+}
+
+.breadcrumb .location a::before,
+.breadcrumb .location a::after {
+  content: "";
+  top: 0;
+  height: inherit;
+  position: absolute;
+  border-color: darkcyan;
+  border-style: solid;
+  border-width: 20px 5px;
+}
+
+
+.breadcrumb .location a::after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: darkcyan;
+}
+.breadcrumb .location a::before {
+  left: -5px;
+  border-left-color: transparent;
+}
+
+.breadcrumb .attribute{
+  position: relative;
+  top: 6%;
+  vertical-align: middle;
+}
+.breadcrumb .attribute a {
+  background-color: lightcoral;
+  justify-content: center;
+  height: auto;
+  font-size: small;
+  padding: 0 5px;
+}
+
+.breadcrumb .attribute a::after {
+  content: " x";
+  vertical-align: super;
+}
