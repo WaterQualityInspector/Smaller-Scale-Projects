@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  text-align: center;
+  font-size: 22px;
+}
+
+html {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 69px;
+  padding: 0px 30px 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
+}
+
+header img {
+  height: 50px;
+}
+
+.main-background {
+  display: flex;
+  background-image: url(./background.webp);
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 55px;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title-banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between;
+  background-color: black;
+  width: 100%;
+}
+
+.title-banner h2 {
+  font-size: 50px;
+  line-height: 1;
+}
+
+.title-banner h2, .title-banner h4 {
+  margin: 10px auto;
+}
+
+.totm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tea-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  flex-flow: column wrap;
+}
+
+
+.totm img {
+  height: 200px;
+  width: 300px;
+}
+
+.totm h4 {
+  margin: 10px auto;
+}
+
+.location-banner {
+  display: flex;
+  height: 500px;
+  min-width: 800px;
+  position: relative;
+  top: 25px;
+  background-image: url("./locations-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px auto;
+  padding: 10px;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row wrap;
+}
+
+#locations-title {
+  width: 100%;
+  font-size: 40px;
+  margin: 30px 0px 15px;
+}
+
+.location-blocks {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+}
+
+.location-blocks h3, .location-blocks h5 {
+  line-height: 1.25;
+  margin: 15px 0px;
+  font-weight: lighter;
+}
+
+.location-blocks h3 {
+  font-weight: bolder;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  top: 20px;
+  margin: 20px auto;
+  height: 200px;
+  flex-flow: column;
+}
+
+footer h6 {
+  text-align: left;
+  position: relative;
+  margin: 10px 20px 60px;
+}
+
+.contact {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.contact h3, .contact h5 {
+  line-height: 1;
+  margin: 10px;
+}
+
+.contact h3 {
+  font-size: 35px;
+  line-height: 1.25;
+}
+
+
+
+
